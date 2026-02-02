@@ -33,4 +33,50 @@ This ensures synchronized gameplay and prevents data loss.
 ---
 
 ## 📁 Project Structure
+color-collide/
+│
+├── client.py
+├── server.py
+├── header_client.py
+├── header_server.py
+└── README.md
+
+The number of players is controlled by `TOTAL_PLAYERS` in `server.py`.
+
+---
+
+## 🎮 How to Play
+
+- Use the arrow keys to move your square.
+- Collide with another player to score a point.
+- The game runs for a fixed round time.
+- The player with the highest score wins.
+
+---
+
+## 🌐 Network Scope
+
+This game is designed for:
+- Localhost (same computer)
+- Local Area Network (LAN)
+
+To play over the internet, the server IP address must be shared with clients.
+
+---
+
+## 🚀 Future Improvements
+
+- Chat system
+- Player lobby system
+- Better collision detection
+- Internet-based multiplayer
+- Cleaner code structure
+- GUI menus
+
+---
+
+## 👨‍💻 Author
+
+Created as a learning project for computer networking and multiplayer game design using Python sockets.
+
 
